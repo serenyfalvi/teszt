@@ -1,0 +1,46 @@
+body {
+	background-image: url(images/c4.jpg);
+}
+#header {
+	background-image: url(images/header.png);
+	height: 150px;
+	min-width: 750px;
+	z-index: -1;
+}
+#back {
+	width: 85%;
+	height: 850px;
+	background-color: #FFFFFF;
+	opacity: 0.4;
+	position: absolute;
+	top: 20px;
+	z-index: -2;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	min-width: 750px;
+}
+#header-text {
+	font-size: 40px;
+	height: 45px;
+	width: 160px;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 60px;
+}
+#menu {
+	
+}
+#aktiv {
+	font-weight: bolder;
+	background-color: rgba(0,0,255,0.5);
+	color: #000000;
+	text-decoration: none;
+}
+#inaktiv {
+	background-color: rgba(0,0,128,0.5);
+	color: #000000;
+	text-decoration: none;
+}
